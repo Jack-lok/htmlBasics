@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flex Basics</title>
+    <style>
+        .big {
+            display: flex;
+            background: coral;
+            justify-content: center;
+            /*height: 500px;*/
+        }
+
+        .small {
+            background: wheat;
+            width: 40%;
+
+        }
+
+        #shout {
+            color: #5b72e1;
+            font-size: 1.5em;
+        }
+        .container{
+            display: flex;
+            justify-content: space-evenly;
+            background: #807b7b;
+            padding: 15px 15px;
+        }
+        .smaller {
+            width: 20%;
+            background: #201a1a;
+            color: aliceblue;
+            font-size: 1.8em;
+            height: 52px;
+            display: flex;
+            justify-content: center;/*horizontal*/
+            align-items: center; /*vertical*/
+        }
+
+    </style>
+</head>
+<body>
+<div class="big">
+    <div class="small">
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span id="shout">Alias aliquam atque dolore doloribus eligendi</span>, esse eum excepturi facere iste minima nihil nostrum optio porro qui, quidem quo reiciendis rerum ullam.</span><span>Asperiores assumenda, aut consequuntur cupiditate distinctio dolorum eaque error eum illo in labore laboriosam, natus, pariatur quaerat quia. Dolorem in pariatur rem? Doloremque doloribus ipsa laboriosam numquam, obcaecati reiciendis sunt.</span>
+        </p>
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div class="smaller">1</div>
+    <div class="smaller">2</div>
+    <div class="smaller">3</div>
+    <div class="smaller">4</div>
+</div>
+
+</body>
+</html>
