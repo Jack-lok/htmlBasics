@@ -69,7 +69,7 @@ footer .copyRights{
 }
 .big{
     min-height: 100vh;
-    background: url("images/fb.png");
+    background: url("images/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -98,13 +98,16 @@ footer .copyRights{
 }
 .animals{
     display: flex;
+    margin: 16px;
 }
 .crocodile , .rightText{
     width: 50%;
+
 }
 .crocodile img{
     width: 100%;
     height: 100%;
+
 }
 .rightText{
     display: flex;
@@ -113,4 +116,9 @@ footer .copyRights{
     flex-direction: column;
     padding: 0 16px;
     text-align: center;
+}
+.rightText h2{
+    color: #507104;
+    padding: 20px;
+
 }
